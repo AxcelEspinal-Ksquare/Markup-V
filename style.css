@@ -1,7 +1,21 @@
-.profilePic {
+.navbar, .navs, .profile, .main, .miniPics, .buttons, .currentPrice{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.profilePic > img{
     border-radius: 50%;
     width: 3vw;
     height: 3vw;
     min-width: 55px;
     min-height: 55px;
+}
+
+.mainPic > img {
+    width: 500px;
+}
+
+.mini > img {
+    width: 10vw;
 }
