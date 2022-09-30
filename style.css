@@ -1,0 +1,7 @@
+.profilePic {
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    min-width: 55px;
+    min-height: 55px;
+}
