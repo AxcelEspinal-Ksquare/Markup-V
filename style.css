@@ -1,8 +1,16 @@
+body {
+    font-family: Calibri;
+}
+
 .navbar, .navs, .profile, .main, .miniPics, .buttons, .currentPrice{
     display: flex;
     flex-direction: row;
 }
 
+a {
+    text-decoration: none;
+    color: #67686A;
+}
 
 .profilePic > img{
     border-radius: 50%;
@@ -18,4 +26,8 @@
 
 .mini > img {
     width: 10vw;
+}
+
+.mainPic > img, .mini > img {
+    border-radius: 15px;
 }
